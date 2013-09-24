@@ -7,7 +7,7 @@ Useful information about every country, packaged as objects. Created from the [c
 Return an array of country names. [[test]](?return[]=name)
 
 ```html
-<script src="?return[]=name"><script>
+<script src="?return[]=name"></script>
 ```
 
 ```js
@@ -17,7 +17,7 @@ Return an array of country names. [[test]](?return[]=name)
 Return a keyless array of country names. [[test]](?return[]=name&keyless)
 
 ```html
-<script src="?return[]=name&keyless"><script>
+<script src="?return[]=name&keyless"></script>
 ```
 
 ```js
@@ -27,7 +27,7 @@ Return a keyless array of country names. [[test]](?return[]=name&keyless)
 Return a callback array of country names. [[test]](?return[]=name&callback=foo)
 
 ```html
-<script src="?return[]=name&callback=foo"><script>
+<script src="?return[]=name&callback=foo"></script>
 ```
 
 ```js
@@ -37,7 +37,7 @@ foo([["Andorra"],["United Arab Emirates"],...]);
 Return a human-readable array of country names. [[test]](?return[]=name&readable)
 
 ```html
-<script src="?return[]=name&readable"><script>
+<script src="?return[]=name&readable"></script>
 ```
 
 ```js
@@ -55,7 +55,7 @@ Return a human-readable array of country names. [[test]](?return[]=name&readable
 Return an array of country names and their ISO 3166 Alpha 2 codes. [[test]](?return[]=name&return[]=alpha2)
 
 ```html
-<script src="?return[]=name&return[]=alpha2"><script>
+<script src="?return[]=name&return[]=alpha2"></script>
 ```
 
 ```js
@@ -65,7 +65,7 @@ Return an array of country names and their ISO 3166 Alpha 2 codes. [[test]](?ret
 Return an array of one item — the United State’s name and latitude–longitude coordinates. [[test]](?alpha2[]=US&return[]=name&return[]=latlng)
 
 ```html
-<script src="?alpha2[]=US&return[]=name&return[]=latlng"><script>
+<script src="?alpha2[]=US&return[]=name&return[]=latlng"></script>
 ```
 
 ```js
@@ -75,7 +75,7 @@ Return an array of one item — the United State’s name and latitude–longitu
 Return an object — the United State’s name and latitude–longitude coordinates. [[test]](?alpha2=US&return[]=name&return[]=latlng)
 
 ```html
-<script src="?alpha2=US&return[]=name&return[]=latlng"><script>
+<script src="?alpha2=US&return[]=name&return[]=latlng"></script>
 ```
 
 ```js
@@ -85,7 +85,7 @@ Return an object — the United State’s name and latitude–longitude coordina
 Return an array of all countries’ data. [[test]](?return)
 
 ```html
-<script src="?return"><script>
+<script src="?return"></script>
 ```
 
 ```js
